@@ -1,0 +1,5 @@
+PKG_NAME := mvn-mapr-hadoop
+URL = http://repository.mapr.com/maven/org/apache/hadoop/hadoop-common/2.7.0-mapr-1703/hadoop-common-2.7.0-mapr-1703.jar
+ARCHIVES = http://repository.mapr.com/maven/org/apache/hadoop/hadoop-common/2.7.0-mapr-1703/hadoop-common-2.7.0-mapr-1703.pom : http://repository.mapr.com/maven/org/apache/hadoop/hadoop-auth/2.7.0-mapr-1703/hadoop-auth-2.7.0-mapr-1703.pom : http://repository.mapr.com/maven/org/apache/hadoop/hadoop-project/2.7.0-mapr-1703/hadoop-project-2.7.0-mapr-1703.pom : http://repository.mapr.com/maven/org/apache/hadoop/hadoop-main/2.7.0-mapr-1703/hadoop-main-2.7.0-mapr-1703.pom : http://repository.mapr.com/maven/org/apache/hadoop/hadoop-project-dist/2.7.0-mapr-1703/hadoop-project-dist-2.7.0-mapr-1703.pom : http://repository.mapr.com/maven/org/apache/hadoop/hadoop-annotations/2.7.0-mapr-1703/hadoop-annotations-2.7.0-mapr-1703.pom : http://repository.mapr.com/maven/org/apache/hadoop/hadoop-auth/2.7.0-mapr-1703/hadoop-auth-2.7.0-mapr-1703.jar : http://repository.mapr.com/maven/org/apache/hadoop/hadoop-annotations/2.7.0-mapr-1703/hadoop-annotations-2.7.0-mapr-1703.jar : 
+
+include ../common/Makefile.common
